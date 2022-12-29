@@ -1,6 +1,7 @@
-// PROBLEM: https://www.geeksforgeeks.org/program-nth-catalan-number/
-// https://en.wikipedia.org/wiki/Catalan_number
-// https://practice.geeksforgeeks.org/problems/nth-catalan-number0817/1
+// PROBLEM: https://practice.geeksforgeeks.org/problems/nth-catalan-number0817/1
+// LEARN:
+//   1) https://www.geeksforgeeks.org/program-nth-catalan-number/
+//   2) https://en.wikipedia.org/wiki/Catalan_number
 
 #include <boost/multiprecision/cpp_int.hpp>
 using boost::multiprecision::cpp_int;  // https://www.geeksforgeeks.org/factorial-large-number-using-boost-multiprecision-library/
