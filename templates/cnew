@@ -1,0 +1,26 @@
+#ifdef EZ
+   #include "./ez/ez.h"
+#else
+   #include <bits/stdc++.h>
+#endif
+#define mp make_pair
+#define mt make_tuple
+#define ll long long
+#define pb emplace_back
+#define fi first
+#define se second
+using namespace std;
+void EZinit() {
+   #ifndef EZ
+   cin.tie(0)->sync_with_stdio(0);
+   #endif
+}
+
+
+
+int main()
+{
+   EZinit();
+   
+   
+}
