@@ -1,0 +1,27 @@
+{
+   "version": "2.0.0",
+   "tasks": [
+      {
+         "type": "shell",
+         "label": "C/C++: g++ build active file",
+         "linux": {
+            "command": "g++ \"${file}\" -std=c++17 -D EZ -o \"${workspaceFolder}/bin/${fileBasenameNoExtension}\" && \"${workspaceFolder}/bin/${fileBasenameNoExtension}\"",
+         },
+         "windows": {
+            "command": "g++ \"${file}\" -std=c++17 -D EZ -o \"${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe\" ; \"${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe\"",
+         },
+         "presentation": {
+            "echo": true,
+            "reveal": "always",
+            "focus": true,
+            "panel": "shared",
+            "showReuseMessage": true,
+            "clear": false
+         },
+         "group": {
+            "kind": "build",
+            "isDefault": true
+         }
+      }
+   ]
+}
