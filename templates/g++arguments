@@ -1,1 +1,1 @@
-g++ "./main.cpp" -std=c++14 -D EZ -o "./bin/main" && "./main"
+g++ "./main.cpp" -std=c++17 -D EZ -o "./bin/main" && "./main"
